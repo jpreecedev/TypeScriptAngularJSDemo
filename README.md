@@ -1,3 +1,5 @@
+# Writing AngularJS 1.x with TypeScript
+
 AngularJS 1.x is a front end JavaScript framework that has gained huge traction and popularity in the development community.  AngularJS greatly simplifies previously hard tasks like two-way data binding, templating, the MVC design pattern, despendency injection and more.  Using TypeScript, we can create more robust and scalable AngularJS code to deliver the ultimate user experience whilst avoiding the traditional spaghetti nightmare that these types of applications typically devolve in to.
 
 AngularJS version 1.x is written in JavaScript.  Its successor, Angular 2.x, is written using TypeScript.  It was originally going to be written in Google's propriety language AtScript, but the teams have merged the projects and are now working together on TypeScript.
