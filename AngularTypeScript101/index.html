@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href="content/css/site.css" rel="stylesheet"/>
+	</head>
+	<body ng-app="HaveIBeenPwned">
+		<h1>Have I Been Pwned?</h1>
+		
+		<div class="container" ng-view>
+			
+		</div>
+		
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		<script src="client/HaveIBeenPwned/app.module.js"></script>
+		<script src="client/HaveIBeenPwned/app.route.js"></script>
+		<script src="client/HaveIBeenPwned/services/pwnedservice.js"></script>
+		<script src="client/HaveIBeenPwned/controllers/search.js"></script>
+		<script src="client/HaveIBeenPwned/models/breachedaccount.js"></script>		
+		<script src="client/HaveIBeenPwned/filters/asHtml.filter.js"></script>	
+		<script src="client/HaveIBeenPwned/directives/search.directive.js"></script>	
+	</body>
+</html>
