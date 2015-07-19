@@ -6,7 +6,7 @@ var HaveIBeenPwned;
     function routes($routeProvider) {
         $routeProvider
             .when("/search", {
-            templateUrl: "views/_search.html",
+            templateUrl: "client/HaveIBeenPwned/views/_search.html",
             controller: "SearchController",
             controllerAs: "vm"
         })
