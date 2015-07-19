@@ -8,7 +8,7 @@ module HaveIBeenPwned {
               
         $routeProvider
             .when("/search", {
-                templateUrl: "client/HaveIBeenPwned/views/_search.html",
+                templateUrl: "client/HaveIBeenPwned/views/search.html",
                 controller: "SearchController",
                 controllerAs: "vm"
             })
